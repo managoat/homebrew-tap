@@ -1,28 +1,28 @@
 class Fountain < Formula
   desc "CLI for Managoat — HTTP/JSON client, SSE consumer, and secret-store helper"
   homepage "https://github.com/managoat/fountain"
-  version "0.26.0"
+  version "0.26.1"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/managoat/fountain/releases/download/v0.26.0/fountain-darwin-arm64"
-      sha256 "57d9650dd7171e709c999ac89c57b40a02367e18c7f93183f14749e3f8330042"
+      url "https://github.com/managoat/fountain/releases/download/v0.26.1/fountain-darwin-arm64"
+      sha256 "052e06e041caf5f536783b7af6c01a3a898edcdf86e34516f581d77139c37d16"
     end
     on_intel do
-      url "https://github.com/managoat/fountain/releases/download/v0.26.0/fountain-darwin-amd64"
-      sha256 "143c556ab92a86164f9650ea0f72ac41d3657ab32480119f7087dc58cbadf276"
+      url "https://github.com/managoat/fountain/releases/download/v0.26.1/fountain-darwin-amd64"
+      sha256 "f913fe9877c700eacd830843e0726c6753d62831e89119758640952fde8a2ccb"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/managoat/fountain/releases/download/v0.26.0/fountain-linux-arm64"
-      sha256 "78dfb21c6bccdfc5e0407a3c2cc017835e1d2e0109b8e2a0fad71dcd2f4e0fad"
+      url "https://github.com/managoat/fountain/releases/download/v0.26.1/fountain-linux-arm64"
+      sha256 "9b6fa9d2c0dd6d8be7b700b62045ae1d388f464806abf914953fd2594edd1957"
     end
     on_intel do
-      url "https://github.com/managoat/fountain/releases/download/v0.26.0/fountain-linux-amd64"
-      sha256 "989c76829147e3cc1eb992e0de8729d21958b9cab9f6690df7f9e1b6c5956406"
+      url "https://github.com/managoat/fountain/releases/download/v0.26.1/fountain-linux-amd64"
+      sha256 "6920d360d0ae8353931e0a932f04b584fa0109b8f7d0912723a6b3283d1ebfb2"
     end
   end
 
