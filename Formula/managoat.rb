@@ -1,28 +1,28 @@
 class Managoat < Formula
   desc "CLI for Managoat — HTTP/JSON client, SSE consumer, and secret-store helper"
   homepage "https://github.com/managoat/managoat"
-  version "0.31.24"
+  version "0.31.25"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/managoat/managoat/releases/download/v0.31.24/managoat-darwin-arm64"
-      sha256 "32379cc7b151ee070d709e1ab859376c55dfecf8a93b3c73153dd5fc565227d0"
+      url "https://github.com/managoat/managoat/releases/download/v0.31.25/managoat-darwin-arm64"
+      sha256 "83f89fcc6d6754ffcfad93f725005c09ab4eb81c558105b44eb88949ef486a52"
     end
     on_intel do
-      url "https://github.com/managoat/managoat/releases/download/v0.31.24/managoat-darwin-amd64"
-      sha256 "93125ac404211958f9f3f82c091edaba5acf4b9fd58b3fd876ce18ad735a01e4"
+      url "https://github.com/managoat/managoat/releases/download/v0.31.25/managoat-darwin-amd64"
+      sha256 "774bfd2fc8ad9020f507322979842aa1abbb9e18aa55aff2f7b2fda78df9aa5d"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/managoat/managoat/releases/download/v0.31.24/managoat-linux-arm64"
-      sha256 "d15e0c24ca4850a184660eb43bede5172bd71b25ec945eb8b9092806268b1787"
+      url "https://github.com/managoat/managoat/releases/download/v0.31.25/managoat-linux-arm64"
+      sha256 "e58dccd19b7c1b8717d4504af885b481a5432c8d5aa4711845cf45cf2ba49401"
     end
     on_intel do
-      url "https://github.com/managoat/managoat/releases/download/v0.31.24/managoat-linux-amd64"
-      sha256 "a3d2ae01fb6d270a5ebbbc7be40a35c34986e84a1286bdcb1031db26ce1f1746"
+      url "https://github.com/managoat/managoat/releases/download/v0.31.25/managoat-linux-amd64"
+      sha256 "376103c6eb37d05c403c58fe7e2aae2800964185e8613b9472ece33ab1a7ad6f"
     end
   end
 
